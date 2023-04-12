@@ -14,6 +14,7 @@ const app = {
         });
     },
     loadUser: function(){
+        console.log(this.currentUser);
         console.log(this.currentUser.name);
     },
     start: function(){
