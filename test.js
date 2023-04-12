@@ -17,6 +17,7 @@ const app = {
         console.log(this.currentUser.name);
     },
     start: function(){
+        this.defineProperties();
         this.loadUser();
     }
 }
